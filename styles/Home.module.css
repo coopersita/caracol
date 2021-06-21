@@ -11,6 +11,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 1rem 0;
 }
 
 .main {
@@ -86,7 +87,7 @@ color: var(--accent);
   width: 90%;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 769px) { 
   .grid {
     display: grid;
     grid-gap: 50px;
