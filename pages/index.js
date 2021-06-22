@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <div className={styles.grid}>
         <div>
-          <p className={styles.blurb}>
+          <p className="blurb">
             The Mayan culture developed in Southern Mexico and Central America.
             It originated around 2000BC and flourished between 300AD and 900AD.
             The Maya are renowned for their advanced knowledge of science,
@@ -26,7 +26,7 @@ export default function Home() {
         </div>
       </div>
       <Link href="/intro">
-        <a className={styles.next}>Next</a>
+        <a className="next">Next</a>
       </Link>
     </>
   );

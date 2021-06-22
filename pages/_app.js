@@ -22,9 +22,9 @@ function MyApp({ Component, pageProps, router }) {
           alt=""
         />
       </div>
-      <h1 className={styles.title}>Mayan Math</h1>
+      <h1 className="title">Mayan Math</h1>
 
-      <div className={styles.container}>
+      <div className="container">
         <motion.div
           key={router.route}
           initial="hidden"
@@ -43,14 +43,14 @@ function MyApp({ Component, pageProps, router }) {
               },
             },
           }}
-          className={styles.content}
+          className="content"
         >
-          <main className={styles.main}>
+          <main className="main">
             <Component {...pageProps} />
           </main>
         </motion.div>
 
-        <footer className={styles.footer}>
+        <footer className="footer">
           &copy; {new Date().getFullYear()} Alicia Ramírez, background image by{' '}
           <a href="https://unsplash.com/@jezael?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
             {' '}

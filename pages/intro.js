@@ -1,17 +1,17 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import styles from '../styles/Home.module.css';
+import styles from '../styles/Intro.module.css';
 
 export default function Home() {
   return (
     <>
       <div className={styles.noGrid}>
         <div>
-          <p className={styles.blurb}>
+          <p className="blurb">
             The Maya developed a unique mathematical system. Unlike our decimal
             (base 10) system, it was vigesimal (base 20).
           </p>
-          <p className={styles.blurb}>
+          <p className="blurb">
             They also used the concept of zero along with an ingenious way of
             representing numbers. With only 3 hieroglyphs, they managed to
             represent any number:
@@ -69,7 +69,7 @@ export default function Home() {
           </figure>
         </div>
         <div>
-          <p className={styles.blurb}>
+          <p className="blurb">
             So they could combine them to create other numbers:
           </p>
         </div>
@@ -281,7 +281,7 @@ export default function Home() {
         </div>
       </div>
       <Link href="/">
-        <a className={styles.prev}>Previous</a>
+        <a className="prev">Previous</a>
       </Link>
     </>
   );

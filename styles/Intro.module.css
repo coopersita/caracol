@@ -1,0 +1,55 @@
+.noGrid {
+    margin: 3rem 0;
+    width: 90%;
+  }
+
+
+.row {
+    text-align: center;
+    font-size: 2rem;
+  }
+  .row  figure {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
+  }
+  
+  .row .figureGroup {
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .row  .figureOuter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .row .figureInner {
+    display: block;
+    padding: 0 10px;
+  }
+
+  @media (min-width: 767px) { 
+    .noGrid {
+        max-width: 80%;
+        margin: 0 auto;
+      }
+      .row {
+        display: flex;
+        justify-content: space-around;
+        align-items: stretch;
+        flex-wrap: wrap;
+      }
+      .row figure {
+        width: 38%;
+      }
+    }
+
+    @media (min-width: 1200px) {
+        .row figure {
+            width: auto;
+          }
+    }
+  
