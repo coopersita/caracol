@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="255px" height="107px" viewBox="0 0 255 107" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>zero</title>
+    <g id="hierogplyhs" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-21.000000, -17.000000)" stroke="#FFFF99" stroke-width="7">
+            <g id="zero" transform="translate(22.000000, 17.000000)">
+                <ellipse id="Oval" cx="127" cy="53.5" rx="123.5" ry="50"></ellipse>
+                <path d="M0,51 C43.066666,60.3333333 85.7333327,65 128,65 C170.266667,65 211.933334,59 253,47" id="Path"></path>
+                <path d="M7,69 C45.3999993,78.3333333 85.7333327,83 128,83 C170.266667,83 209.266667,78 245,68" id="Path"></path>
+                <line x1="55" y1="15" x2="55" y2="58" id="Path-2"></line>
+                <line x1="102" y1="6" x2="102" y2="63" id="Path-3"></line>
+                <line x1="139" y1="4" x2="139" y2="63" id="Path-4"></line>
+                <line x1="184" y1="12" x2="184" y2="61" id="Path-5"></line>
+            </g>
+        </g>
+    </g>
+</svg>

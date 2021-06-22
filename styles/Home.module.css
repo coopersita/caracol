@@ -14,6 +14,7 @@
   margin: 1rem 0;
 }
 
+
 .main {
   flex: 1;
   display: flex;
@@ -26,7 +27,7 @@
   width: 100%;
 background-color: var(--color);
 color: var(--accent);
-  padding: 0.5rem;
+  padding: 0.5rem 1rem;
   font-size: 0.8rem;
   text-align: center;
 }
@@ -54,19 +55,10 @@ color: var(--accent);
   font-family: 'Sanchez', serif;
   font-size: 2rem;
   text-align: center;
-  padding: 0.5rem;
+  padding: 0.5rem 1rem;
   position: fixed;
   width: 100%;
-
-}
-
-.description {
-  text-align: center;
-}
-
-.description {
-  line-height: 1.5;
-  font-size: 1.5rem;
+  z-index : 2
 }
 
 .code {
@@ -82,20 +74,110 @@ color: var(--accent);
   line-height: 1.6;
 }
 
-.grid {
+.next, .prev {
+  width: 50px;
+  height: 50px;
+  background-color: var(--color);
+  border-radius: 50%;
+  display: block;
+  text-indent: 100%;
+white-space: nowrap;
+overflow: hidden;
+margin: auto;
+position: relative;
+}
+.next::before, .prev::before{
+  content: "";
+  width: 0; 
+  height: 0; 
+  position: absolute;
+
+top: 10px;
+transition: all 1s;
+}
+
+.prev::before{
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-right: 25px solid var(--accent);
+  left: 9px;
+}
+
+.prev:hover::before {
+  border-right-color:var(--light);
+}
+
+.next::before{
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 25px solid var(--accent);
+  left: 16px;
+}
+
+.next:hover::before {
+  border-left-color:var(--light);
+}
+
+
+.grid, .noGrid {
   margin: 3rem 0;
   width: 90%;
 }
 
-@media (min-width: 769px) { 
+.row {
+  text-align: center;
+  font-size: 2rem;
+}
+.row  figure {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0;
+}
+
+.row .figureGroup {
+  flex:1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.row  .figureOuter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row .figureInner {
+  display: block;
+  padding: 0 10px;
+}
+
+@media (min-width: 767px) { 
+  .main {
+    margin: 3rem 0;
+
+  }
   .grid {
     display: grid;
     grid-gap: 50px;
     align-items: center;
     justify-content: center;
     grid-template-columns: 1fr 1fr;
-    max-width: 1440px;
-    width: 80%;
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+  .noGrid {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  .row {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
+  }
+  .row figure {
+    width: 38%;
   }
 
 .title, .footer {
@@ -108,7 +190,10 @@ color: var(--accent);
     grid-template-columns: 2fr 1fr;
 
   }
+  .row figure {
+    width: auto;
+  }
   .blurb {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 }
