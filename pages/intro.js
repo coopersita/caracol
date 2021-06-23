@@ -19,15 +19,15 @@ export default function Home() {
         </div>
 
         <div className={styles.row}>
-          <figure>
+          <figure className={styles.figure}>
             <div className={styles.figureGroup}>
               <div className={styles.figureOuter}>
                 <div className={styles.figureInner}>
                   <Image
                     priority
                     src="/caracol/zero_pbqspr.svg"
-                    height={107}
-                    width={254}
+                    height={107 / 2}
+                    width={254 / 2}
                     alt="Zero hierogplyph: an oval resempling a sea shell"
                   />
                 </div>
@@ -35,15 +35,15 @@ export default function Home() {
             </div>
             <figcaption>Zero</figcaption>
           </figure>
-          <figure>
+          <figure className={styles.figure}>
             <div className={styles.figureGroup}>
               <div className={styles.figureOuter}>
                 <div className={styles.figureInner}>
                   <Image
                     priority
                     src="/caracol/one_nlc4nc.svg"
-                    height={31}
-                    width={31}
+                    height={31 / 2}
+                    width={31 / 2}
                     alt="One hierogplyph: a dot"
                   />
                 </div>
@@ -51,15 +51,15 @@ export default function Home() {
             </div>
             <figcaption>One</figcaption>
           </figure>
-          <figure>
+          <figure className={styles.figure}>
             <div className={styles.figureGroup}>
               <div className={styles.figureOuter}>
                 <div className={styles.figureInner}>
                   <Image
                     priority
                     src="/caracol/five_kylwqh.svg"
-                    height={16}
-                    width={254}
+                    height={16 / 2}
+                    width={254 / 2}
                     alt="Five hierogplyph: an horizontal line"
                   />
                 </div>
@@ -74,15 +74,15 @@ export default function Home() {
           </p>
         </div>
         <div className={styles.row}>
-          <figure>
+          <figure className={styles.figure}>
             <div className={styles.figureGroup}>
               <div className={styles.figureOuter}>
                 <div className={styles.figureInner}>
                   <Image
                     priority
                     src="/caracol/one_nlc4nc.svg"
-                    height={31}
-                    width={31}
+                    height={31 / 2}
+                    width={31 / 2}
                     alt="One hierogplyph: a dot"
                   />
                 </div>
@@ -90,8 +90,8 @@ export default function Home() {
                   <Image
                     priority
                     src="/caracol/one_nlc4nc.svg"
-                    height={31}
-                    width={31}
+                    height={31 / 2}
+                    width={31 / 2}
                     alt="One hierogplyph: a dot"
                   />
                 </div>
@@ -99,8 +99,8 @@ export default function Home() {
                   <Image
                     priority
                     src="/caracol/one_nlc4nc.svg"
-                    height={31}
-                    width={31}
+                    height={31 / 2}
+                    width={31 / 2}
                     alt="One hierogplyph: a dot"
                   />
                 </div>
@@ -108,15 +108,15 @@ export default function Home() {
             </div>
             <figcaption>3</figcaption>
           </figure>
-          <figure>
+          <figure className={styles.figure}>
             <div className={styles.figureGroup}>
               <div className={styles.figureOuter}>
                 <div className={styles.figureInner}>
                   <Image
                     priority
                     src="/caracol/one_nlc4nc.svg"
-                    height={31}
-                    width={31}
+                    height={31 / 2}
+                    width={31 / 2}
                     alt="One hierogplyph: a dot"
                   />
                 </div>
@@ -124,8 +124,8 @@ export default function Home() {
                   <Image
                     priority
                     src="/caracol/one_nlc4nc.svg"
-                    height={31}
-                    width={31}
+                    height={31 / 2}
+                    width={31 / 2}
                     alt="One hierogplyph: a dot"
                   />
                 </div>
@@ -133,8 +133,8 @@ export default function Home() {
                   <Image
                     priority
                     src="/caracol/one_nlc4nc.svg"
-                    height={31}
-                    width={31}
+                    height={31 / 2}
+                    width={31 / 2}
                     alt="One hierogplyph: a dot"
                   />
                 </div>
@@ -142,8 +142,8 @@ export default function Home() {
                   <Image
                     priority
                     src="/caracol/one_nlc4nc.svg"
-                    height={31}
-                    width={31}
+                    height={31 / 2}
+                    width={31 / 2}
                     alt="One hierogplyph: a dot"
                   />
                 </div>
@@ -153,8 +153,8 @@ export default function Home() {
                   <Image
                     priority
                     src="/caracol/five_kylwqh.svg"
-                    height={16}
-                    width={254}
+                    height={16 / 2}
+                    width={254 / 2}
                     alt="Five hierogplyph: a horizontal line"
                   />
                 </div>
@@ -162,15 +162,15 @@ export default function Home() {
             </div>
             <figcaption>9</figcaption>
           </figure>
-          <figure>
+          <figure className={styles.figure}>
             <div className={styles.figureGroup}>
               <div className={styles.figureOuter}>
                 <div className={styles.figureInner}>
                   <Image
                     priority
                     src="/caracol/five_kylwqh.svg"
-                    height={16}
-                    width={254}
+                    height={16 / 2}
+                    width={254 / 2}
                     alt="Five hierogplyph: a horizontal line"
                   />
                 </div>
@@ -180,8 +180,8 @@ export default function Home() {
                   <Image
                     priority
                     src="/caracol/five_kylwqh.svg"
-                    height={16}
-                    width={254}
+                    height={16 / 2}
+                    width={254 / 2}
                     alt="Five hierogplyph: a horizontal line"
                   />
                 </div>
@@ -191,8 +191,8 @@ export default function Home() {
                   <Image
                     priority
                     src="/caracol/five_kylwqh.svg"
-                    height={16}
-                    width={254}
+                    height={16 / 2}
+                    width={254 / 2}
                     alt="Five hierogplyph: a horizontal line"
                   />
                 </div>
@@ -201,15 +201,15 @@ export default function Home() {
 
             <figcaption>15</figcaption>
           </figure>
-          <figure>
+          <figure className={styles.figure}>
             <div className={styles.figureGroup}>
               <div className={styles.figureOuter}>
                 <div className={styles.figureInner}>
                   <Image
                     priority
                     src="/caracol/one_nlc4nc.svg"
-                    height={31}
-                    width={31}
+                    height={31 / 2}
+                    width={31 / 2}
                     alt="One hierogplyph: a dot"
                   />
                 </div>
@@ -217,8 +217,8 @@ export default function Home() {
                   <Image
                     priority
                     src="/caracol/one_nlc4nc.svg"
-                    height={31}
-                    width={31}
+                    height={31 / 2}
+                    width={31 / 2}
                     alt="One hierogplyph: a dot"
                   />
                 </div>
@@ -226,8 +226,8 @@ export default function Home() {
                   <Image
                     priority
                     src="/caracol/one_nlc4nc.svg"
-                    height={31}
-                    width={31}
+                    height={31 / 2}
+                    width={31 / 2}
                     alt="One hierogplyph: a dot"
                   />
                 </div>
@@ -235,8 +235,8 @@ export default function Home() {
                   <Image
                     priority
                     src="/caracol/one_nlc4nc.svg"
-                    height={31}
-                    width={31}
+                    height={31 / 2}
+                    width={31 / 2}
                     alt="One hierogplyph: a dot"
                   />
                 </div>
@@ -246,8 +246,8 @@ export default function Home() {
                   <Image
                     priority
                     src="/caracol/five_kylwqh.svg"
-                    height={16}
-                    width={254}
+                    height={16 / 2}
+                    width={254 / 2}
                     alt="Five hierogplyph: a horizontal line"
                   />
                 </div>
@@ -257,8 +257,8 @@ export default function Home() {
                   <Image
                     priority
                     src="/caracol/five_kylwqh.svg"
-                    height={16}
-                    width={254}
+                    height={16 / 2}
+                    width={254 / 2}
                     alt="Five hierogplyph: a horizontal line"
                   />
                 </div>
@@ -268,8 +268,8 @@ export default function Home() {
                   <Image
                     priority
                     src="/caracol/five_kylwqh.svg"
-                    height={16}
-                    width={254}
+                    height={16 / 2}
+                    width={254 / 2}
                     alt="Five hierogplyph: a horizontal line"
                   />
                 </div>
@@ -280,9 +280,14 @@ export default function Home() {
           </figure>
         </div>
       </div>
-      <Link href="/">
-        <a className="prev">Previous</a>
-      </Link>
+      <div className="buttons">
+        <Link href="/">
+          <a className="prev">Previous</a>
+        </Link>
+        <Link href="/math">
+          <a className="next">Next</a>
+        </Link>
+      </div>
     </>
   );
 }
