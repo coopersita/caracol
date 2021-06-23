@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="31px" height="31px" viewBox="0 0 31 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="254px" height="122px" viewBox="0 0 254 122" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>one</title>
-    <g id="hierogplyhs" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Artboard" transform="translate(-28.000000, -59.000000)" fill="#FFFF99">
-            <circle id="one" cx="43.5" cy="74.5" r="15.5"></circle>
+    <g id="one" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(112.000000, 46.000000)" fill="#FFFF99" id="one">
+            <circle cx="15.5" cy="15.5" r="15.5"></circle>
         </g>
     </g>
 </svg>

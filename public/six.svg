@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="254px" height="122px" viewBox="0 0 254 122" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>six</title>
+    <g id="six" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(0.000000, 28.000000)" fill="#FFFF99" id="Group">
+            <g transform="translate(0.000000, 41.000000)" id="five">
+                <rect x="0" y="0" width="254" height="16" rx="8"></rect>
+            </g>
+            <g transform="translate(111.000000, 0.000000)" id="one">
+                <circle cx="15.5" cy="15.5" r="15.5"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

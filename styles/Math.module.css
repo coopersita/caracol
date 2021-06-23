@@ -1,0 +1,48 @@
+.math {
+    margin-top: 3rem;
+}
+.smallBlurb {
+    font-size: 0.8rem;
+}
+.table {
+    border-collapse:collapse;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+}
+
+.table td {
+    min-width: 105px;
+}
+
+.table td, .table th {
+    padding: 0.5rem;
+}
+.table td, .table th {
+    border-right: 3px solid var(--color); 
+}
+.table tr {
+    border-top: 3px solid var(--color);
+}
+.table tr:first-child, .table td:last-child {
+    border: 0;
+}
+
+.table figure {
+    display: flex;
+}
+
+@media (min-width: 767px) {     
+    .table td, .table th {
+        padding: 1rem;
+    }
+/* }
+@media (min-width: 1200px) {  */
+    .table {
+        font-size: 1.5rem;
+    }
+    .smallBlurb {
+        font-size: 1.3rem;
+    }
+
+}
