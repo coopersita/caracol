@@ -7,8 +7,8 @@
 .table {
     border-collapse:collapse;
     text-align: center;
-    margin-bottom: 2rem;
     font-size: 1rem;
+    background-color: var(--accentLight);
 }
 
 .table td {
@@ -28,13 +28,13 @@
     border: 0;
 }
 
-.table figure {
+/* .table figure {
     display: flex;
-}
+} */
 
-@media (min-width: 767px) {     
+@media (min-width: 1200px) {     
     .table td, .table th {
-        padding: 1rem;
+        padding: 0.5rem 1rem;
     }
 /* }
 @media (min-width: 1200px) {  */

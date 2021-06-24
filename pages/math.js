@@ -24,30 +24,16 @@ export default function Math() {
               <td />
               <td>
                 <figure className={stylesIntro.figure}>
-                  <div className={stylesIntro.figureGroup}>
-                    <div className={stylesIntro.figureOuter}>
-                      <div className={stylesIntro.figureInner}>
-                        <Image
-                          priority
-                          src="/caracol/five_kylwqh.svg"
-                          height={16 / 2}
-                          width={140}
-                          alt="Five hierogplyph: an horizontal line"
-                        />
-                      </div>
-                    </div>
-                    <div className={stylesIntro.figureOuter}>
-                      <div className={stylesIntro.figureInner}>
-                        <Image
-                          priority
-                          src="/caracol/five_kylwqh.svg"
-                          height={16 / 2}
-                          width={140}
-                          alt="Five hierogplyph: an horizontal line"
-                        />
-                      </div>
-                    </div>
+                  <div>
+                    <Image
+                      priority
+                      src="/caracol/ten_zo9epe.svg"
+                      height={122 / 2}
+                      width={254 / 2}
+                      alt="Ten hierogplyph: two horizontal lines"
+                    />
                   </div>
+
                   <figcaption>
                     <span className={styles.smallBlurb}>
                       10 &times; 8,000 =
@@ -67,69 +53,14 @@ export default function Math() {
               <td />
               <td>
                 <figure className={stylesIntro.figure}>
-                  <div className={stylesIntro.figureGroup}>
-                    <div className={stylesIntro.figureOuter}>
-                      <div className={stylesIntro.figureInner}>
-                        <Image
-                          priority
-                          src="/caracol/one_nlc4nc.svg"
-                          height={31 / 2}
-                          width={31 / 2}
-                          alt="One hierogplyph: a dot"
-                        />
-                      </div>
-                      <div className={stylesIntro.figureInner}>
-                        <Image
-                          priority
-                          src="/caracol/one_nlc4nc.svg"
-                          height={31 / 2}
-                          width={31 / 2}
-                          alt="One hierogplyph: a dot"
-                        />
-                      </div>
-                      <div className={stylesIntro.figureInner}>
-                        <Image
-                          priority
-                          src="/caracol/one_nlc4nc.svg"
-                          height={31 / 2}
-                          width={31 / 2}
-                          alt="One hierogplyph: a dot"
-                        />
-                      </div>
-                    </div>
-                    <div className={stylesIntro.figureOuter}>
-                      <div className={stylesIntro.figureInner}>
-                        <Image
-                          priority
-                          src="/caracol/five_kylwqh.svg"
-                          height={16 / 2}
-                          width={140}
-                          alt="Five hierogplyph: an horizontal line"
-                        />
-                      </div>
-                    </div>
-                    <div className={stylesIntro.figureOuter}>
-                      <div className={stylesIntro.figureInner}>
-                        <Image
-                          priority
-                          src="/caracol/five_kylwqh.svg"
-                          height={16 / 2}
-                          width={140}
-                          alt="Five hierogplyph: an horizontal line"
-                        />
-                      </div>
-                    </div>
-                    <div className={stylesIntro.figureOuter}>
-                      <div className={stylesIntro.figureInner}>
-                        <Image
-                          priority
-                          src="/caracol/five_kylwqh.svg"
-                          height={16 / 2}
-                          width={140}
-                          alt="Five hierogplyph: an horizontal line"
-                        />
-                      </div>
-                    </div>
+                  <div>
+                    <Image
+                      priority
+                      src="/caracol/nineteen_vgtpmh.svg"
+                      height={122 / 2}
+                      width={254 / 2}
+                      alt="Nineteen hierogplyph: 4 dots and three bars"
+                    />
                   </div>
                   <figcaption>
                     <span className={styles.smallBlurb}>19 &times; 400 =</span>
@@ -140,18 +71,14 @@ export default function Math() {
               </td>
               <td>
                 <figure className={stylesIntro.figure}>
-                  <div className={stylesIntro.figureGroup}>
-                    <div className={stylesIntro.figureOuter}>
-                      <div className={stylesIntro.figureInner}>
-                        <Image
-                          priority
-                          src="/caracol/zero_pbqspr.svg"
-                          height={107 / 2}
-                          width={254 / 2}
-                          alt="Zero hierogplyph: an oval resempling a sea shell"
-                        />
-                      </div>
-                    </div>
+                  <div>
+                    <Image
+                      priority
+                      src="/caracol/zero_iepyh1.svg"
+                      height={122 / 2}
+                      width={254 / 2}
+                      alt="Zero hierogplyph: an oval resempling a sea shell"
+                    />
                   </div>
                   <figcaption>0</figcaption>
                 </figure>
@@ -165,19 +92,16 @@ export default function Math() {
               </th>
               <td>
                 <figure className={stylesIntro.figure}>
-                  <div className={stylesIntro.figureGroup}>
-                    <div className={stylesIntro.figureOuter}>
-                      <div className={stylesIntro.figureInner}>
-                        <Image
-                          priority
-                          src="/caracol/one_nlc4nc.svg"
-                          height={31 / 2}
-                          width={31 / 2}
-                          alt="One hierogplyph: a dot"
-                        />
-                      </div>
-                    </div>
+                  <div>
+                    <Image
+                      priority
+                      src="/caracol/one_rk0wex.svg"
+                      height={122 / 2}
+                      width={254 / 2}
+                      alt="One hierogplyph: a dot"
+                    />
                   </div>
+
                   <figcaption>
                     <span className={styles.smallBlurb}>1 &times; 20 =</span>
                     <br />
@@ -187,29 +111,16 @@ export default function Math() {
               </td>
               <td>
                 <figure className={stylesIntro.figure}>
-                  <div className={stylesIntro.figureGroup}>
-                    <div className={stylesIntro.figureOuter}>
-                      <div className={stylesIntro.figureInner}>
-                        <Image
-                          priority
-                          src="/caracol/one_nlc4nc.svg"
-                          height={31 / 2}
-                          width={31 / 2}
-                          alt="One hierogplyph: a dot"
-                        />
-                      </div>
-
-                      <div className={stylesIntro.figureInner}>
-                        <Image
-                          priority
-                          src="/caracol/one_nlc4nc.svg"
-                          height={31 / 2}
-                          width={31 / 2}
-                          alt="One hierogplyph: a dot"
-                        />
-                      </div>
-                    </div>
+                  <div>
+                    <Image
+                      priority
+                      src="/caracol/two_jbna4l.svg"
+                      height={122 / 2}
+                      width={254 / 2}
+                      alt="Two hierogplyph: two dots"
+                    />
                   </div>
+
                   <figcaption>
                     <span className={styles.smallBlurb}>2 &times; 20 =</span>
                     <br />
@@ -219,41 +130,16 @@ export default function Math() {
               </td>
               <td>
                 <figure className={stylesIntro.figure}>
-                  <div className={stylesIntro.figureGroup}>
-                    <div className={stylesIntro.figureOuter}>
-                      <div className={stylesIntro.figureInner}>
-                        <Image
-                          priority
-                          src="/caracol/one_nlc4nc.svg"
-                          height={31 / 2}
-                          width={31 / 2}
-                          alt="One hierogplyph: a dot"
-                        />
-                      </div>
-                    </div>
-                    <div className={stylesIntro.figureOuter}>
-                      <div className={stylesIntro.figureInner}>
-                        <Image
-                          priority
-                          src="/caracol/five_kylwqh.svg"
-                          height={16 / 2}
-                          width={140}
-                          alt="Five hierogplyph: an horizontal line"
-                        />
-                      </div>
-                    </div>
-                    <div className={stylesIntro.figureOuter}>
-                      <div className={stylesIntro.figureInner}>
-                        <Image
-                          priority
-                          src="/caracol/five_kylwqh.svg"
-                          height={16 / 2}
-                          width={140}
-                          alt="Five hierogplyph: an horizontal line"
-                        />
-                      </div>
-                    </div>
+                  <div>
+                    <Image
+                      priority
+                      src="/caracol/eleven_z1cao3.svg"
+                      height={122 / 2}
+                      width={254 / 2}
+                      alt="eleven hierogplyph: a dot and two bars"
+                    />
                   </div>
+
                   <figcaption>
                     <span className={styles.smallBlurb}>11 &times; 20 =</span>
                     <br />
@@ -270,30 +156,16 @@ export default function Math() {
               </th>
               <td>
                 <figure className={stylesIntro.figure}>
-                  <div className={stylesIntro.figureGroup}>
-                    <div className={stylesIntro.figureOuter}>
-                      <div className={stylesIntro.figureInner}>
-                        <Image
-                          priority
-                          src="/caracol/one_nlc4nc.svg"
-                          height={31 / 2}
-                          width={31 / 2}
-                          alt="One hierogplyph: a dot"
-                        />
-                      </div>
-                    </div>
-                    <div className={stylesIntro.figureOuter}>
-                      <div className={stylesIntro.figureInner}>
-                        <Image
-                          priority
-                          src="/caracol/five_kylwqh.svg"
-                          height={16 / 2}
-                          width={140}
-                          alt="Five hierogplyph: an horizontal line"
-                        />
-                      </div>
-                    </div>
+                  <div>
+                    <Image
+                      priority
+                      src="/caracol/six_dpwjqp.svg"
+                      height={122 / 2}
+                      width={254 / 2}
+                      alt="Six hierogplyph: a dot and a bar"
+                    />
                   </div>
+
                   <figcaption>
                     <span className={styles.smallBlurb}>6 &times; 1 =</span>
                     <br />6
@@ -302,19 +174,16 @@ export default function Math() {
               </td>
               <td>
                 <figure className={stylesIntro.figure}>
-                  <div className={stylesIntro.figureGroup}>
-                    <div className={stylesIntro.figureOuter}>
-                      <div className={stylesIntro.figureInner}>
-                        <Image
-                          priority
-                          src="/caracol/five_kylwqh.svg"
-                          height={16 / 2}
-                          width={140}
-                          alt="Five hierogplyph: an horizontal line"
-                        />
-                      </div>
-                    </div>
+                  <div>
+                    <Image
+                      priority
+                      src="/caracol/five_tyagxv.svg"
+                      height={122 / 2}
+                      width={254 / 2}
+                      alt="Five hierogplyph: an horizontal line"
+                    />
                   </div>
+
                   <figcaption>
                     <span className={styles.smallBlurb}>5 &times; 1 =</span>
                     <br />5
@@ -323,19 +192,16 @@ export default function Math() {
               </td>
               <td>
                 <figure className={stylesIntro.figure}>
-                  <div className={stylesIntro.figureGroup}>
-                    <div className={stylesIntro.figureOuter}>
-                      <div className={stylesIntro.figureInner}>
-                        <Image
-                          priority
-                          src="/caracol/zero_pbqspr.svg"
-                          height={107 / 2}
-                          width={254 / 2}
-                          alt="Zero hierogplyph: an oval resempling a sea shell"
-                        />
-                      </div>
-                    </div>
+                  <div>
+                    <Image
+                      priority
+                      src="/caracol/zero_iepyh1.svg"
+                      height={107 / 2}
+                      width={254 / 2}
+                      alt="Zero hierogplyph: an oval resempling a sea shell"
+                    />
                   </div>
+
                   <figcaption>0</figcaption>
                 </figure>
               </td>
@@ -349,7 +215,6 @@ export default function Math() {
           </tbody>
         </table>
       </div>
-      <div className={styles.noGrid} />
       <div className="buttons">
         <Link href="/intro">
           <a className="prev">Previous</a>

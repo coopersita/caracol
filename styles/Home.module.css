@@ -1,25 +1,33 @@
 .grid {
-  margin: 3rem 0;
+  margin: 3rem 0 0;
   width: 90%;
 }
 
 @media (min-width: 767px) { 
 
   .grid {
-    display: grid;
-    grid-gap: 50px;
-    align-items: center;
-    justify-content: center;
-    grid-template-columns: 1fr 1fr;
     max-width: 80%;
     margin: 0 auto;
+  }
+
+  .grid .image {
+    max-width: 60%;
+    margin: auto;
   }
 }
 
 @media (min-width: 1200px) {
-  .grid {
+  .grid {    
+    display: grid;
+    grid-gap: 50px;
+    align-items: center;
+    justify-content: center;
     grid-template-columns: 2fr 1fr;
 
+  }
+  .grid .image {
+    max-width: none;
+    margin: auto;
   }
 
 }

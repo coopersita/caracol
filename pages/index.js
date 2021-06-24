@@ -15,7 +15,7 @@ export default function Home() {
             Mayans still live in the region.
           </p>
         </div>
-        <div>
+        <div className={styles.image}>
           <Image
             priority
             src="/caracol/mapa_j2qnuq.svg"
@@ -25,9 +25,11 @@ export default function Home() {
           />
         </div>
       </div>
-      <Link href="/intro">
-        <a className="next">Next</a>
-      </Link>
+      <div className="buttons">
+        <Link href="/intro">
+          <a className="next">Next</a>
+        </Link>
+      </div>
     </>
   );
 }
