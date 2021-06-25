@@ -36,8 +36,8 @@ export default function CreateNumber() {
   function handleChange(e) {
     const value = parseInt(e.target.value);
     const stack = getNumberStack(value, getExponent(value));
-    setMayanStack(stack);
-    setNumber(value);
+    setMayanStack(Number.isNaN(value) ? [0] : stack);
+    setNumber(Number.isNaN(value) ? 0 : value);
   }
 
   return (
