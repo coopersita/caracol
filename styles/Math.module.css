@@ -36,8 +36,7 @@
     .table td, .table th {
         padding: 0.5rem 1rem;
     }
-/* }
-@media (min-width: 1200px) {  */
+
     .table {
         font-size: 1.5rem;
     }
@@ -45,4 +44,9 @@
         font-size: 1.3rem;
     }
 
+}
+@media (min-width: 1200px) {  
+    .table td, .table th {
+        padding: 1rem 1.5rem;
+    }
 }

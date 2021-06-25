@@ -219,7 +219,7 @@ export default function Math() {
         <Link href="/intro">
           <a className="prev">Previous</a>
         </Link>
-        <Link href="/">
+        <Link href="/actions">
           <a className="next">Next</a>
         </Link>
       </div>

@@ -51,7 +51,9 @@ function MyApp({ Component, pageProps, router }) {
         </motion.div>
 
         <footer className="footer">
-          &copy; {new Date().getFullYear()} Alicia Ramírez, background image by{' '}
+          &copy; {new Date().getFullYear()}{' '}
+          <a href="https://aliciaramirez.com">Alicia Ramírez</a>, background
+          image by{' '}
           <a href="https://unsplash.com/@jezael?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
             {' '}
             Jezael Melgoza{' '}
