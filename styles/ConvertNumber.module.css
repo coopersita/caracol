@@ -4,7 +4,6 @@
     justify-content: center;
     align-items: center;
     margin: 3rem auto 0;
-    max-width: 90%;;
 }
 
 .grid input {
@@ -18,8 +17,23 @@
     margin: 0 0 2rem;
 }
 
+.grid figure {
+    margin: 0;
+    display: flex;
+}
+.grid figure > div, .grid figcaption {
+    flex: 1;
+    border: 1px solid red;
+    min-width: 127px;
+}
+
+.grid figcaption {
+    margin-left: 2rem;
+    align-items: center;
+}
+
 .grid ul {
-    margin: 0 2rem;
+    margin: 0;
     padding: 0;
     list-style-type: none;
     text-align: center;
@@ -41,9 +55,12 @@ margin: 1rem 0;
         flex-direction: row;
         margin-top: 0;
     }
-    .grid > div, .grid ul {
-    width: 50%;
     
+    
+
+.grid ul {
+    margin: 0 0 0 1.5rem;
+    flex-basis: 70%;
 }
 .grid li {
     margin-bottom: 0.5rem;

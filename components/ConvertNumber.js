@@ -6,6 +6,7 @@ export default function CreateNumber() {
   const base = 20;
   const [passedNumber, setNumber] = useState(0);
   const [mayanNumberStack, setMayanStack] = useState([0]);
+  const formatter = new Intl.NumberFormat('en-CA');
 
   function getExponent(val) {
     let accumulated = 0;
@@ -59,18 +60,27 @@ export default function CreateNumber() {
         <ul>
           {mayanNumberStack.map((num, index) => (
             <li key={index}>
-              <GetNumberImage numb={num} />
-              <div>
-                <span className="blurb">
-                  {num * base ** (mayanNumberStack.length - index - 1)}
-                </span>
-                <br />
-                <b>
-                  {base}
-                  <sup>{mayanNumberStack.length - index - 1}</sup>:{' '}
-                </b>
-                {base ** (mayanNumberStack.length - index - 1)} &times; {num}
-              </div>
+              <figure>
+                <div>
+                  <GetNumberImage numb={num} />
+                </div>
+                <figcaption>
+                  <span className="blurb">
+                    {formatter.format(
+                      num * base ** (mayanNumberStack.length - index - 1)
+                    )}
+                  </span>
+                  <br />
+                  <b>
+                    {base}
+                    <sup>{mayanNumberStack.length - index - 1}</sup>:
+                  </b>
+                  {formatter.format(
+                    base ** (mayanNumberStack.length - index - 1)
+                  )}
+                  &times; {num}
+                </figcaption>
+              </figure>
             </li>
           ))}
         </ul>
