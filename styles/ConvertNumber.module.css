@@ -23,7 +23,6 @@
 }
 .grid figure > div, .grid figcaption {
     flex: 1;
-    border: 1px solid red;
     min-width: 127px;
 }
 
