@@ -1,0 +1,102 @@
+.tabs {
+    min-height: 50vh;
+    margin-top: 3rem;
+}
+  .tabs  [role="tablist"] {
+    margin: 0 0 -0.1em;
+    overflow: visible;
+  }
+  
+  .tabs  [role="tab"] {
+    position: relative;
+    margin: 0;
+    padding: 0.3em 1em 0.4em;
+    border: 1px solid var(--color);
+    border-radius: 0.2em 0.2em 0 0;
+    overflow: visible;
+    font-family: inherit;
+    font-size: 1.3rem;
+    background-color: var(--color);
+    color: var(--accent)
+  }
+  
+  .tabs [role="tab"]:hover::before,
+  .tabs [role="tab"]:focus::before,
+  .tabs [role="tab"][aria-selected="true"]::before {
+    position: absolute;
+    bottom: 100%;
+    right: -1px;
+    left: -1px;
+    border-radius: 0.2em 0.2em 0 0;
+    /* border-top: 3px solid var(--light); */
+    content: '';
+  }
+  
+  .tabs [role="tab"][aria-selected="true"] {
+    /* border-radius: 0; */
+    background-color: var(--accentLight);
+    outline: 0;
+    color: var(--color)
+  }
+  
+  .tabs [role="tab"][aria-selected="true"]:not(:focus):not(:hover)::before {
+    /* border-top: 3px solid var(--light); */
+    
+  }
+  
+  .tabs [role="tab"][aria-selected="true"]::after {
+    position: absolute;
+    z-index: 3;
+    bottom: -1px;
+    right: 0;
+    left: 0;
+    height: 0.3em;
+    background: var(--accent);
+    box-shadow: none;
+    content: '';
+  }
+  
+  .tabs [role="tab"]:hover,
+  .tabs  [role="tab"]:focus,
+  .tabs [role="tab"]:active {
+    outline: 0;
+    color: var(--light);
+  }
+  
+  .tabs [role="tab"]:hover::before,
+  .tabs [role="tab"]:focus::before {
+    border-color: hsl(20, 96%, 48%);
+  }
+  
+  .tabs  [role="tabpanel"] {
+    position: relative;
+    z-index: 2;
+    padding: 0.5em 2em 0.7em;
+    border: 1px solid var(--color);
+    border-radius: 0 0.2em 0.2em 0.2em;
+    background-color: var(--accentLight);
+  }
+  
+  .tabs [role="tabpanel"]:focus {
+    border-color: hsl(20, 96%, 48%);
+    box-shadow: 0 0 0.2em hsl(20, 96%, 48%);
+    outline: 0;
+  }
+  
+  .tabs [role="tabpanel"]:focus::after {
+    position: absolute;
+    bottom: 0;
+    right: -1px;
+    left: -1px;
+    border-bottom: 3px solid hsl(20, 96%, 48%);
+    border-radius: 0 0 0.2em 0.2em;
+    content: '';
+  }
+  
+  .tabs [role="tabpanel"] p {
+    margin: 0;
+  }
+  
+  .tabs  [role="tabpanel"] * + p {
+    margin-top: 1em;
+  }
