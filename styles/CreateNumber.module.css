@@ -1,0 +1,60 @@
+
+
+.gridNumbers {
+    display: flex;
+    flex-wrap: wrap;
+    margin:0 ;
+    padding:0;
+    list-style-type: none;
+    flex: 2;
+    justify-content: center;
+}
+
+.gridNumbers li {
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.slots {
+    margin:0;
+    padding:0;
+    list-style-type: none;
+    flex: 1;
+    font-size: 0.8rem;
+
+}
+
+.slot {
+    width: 85px;
+    height: 41px;
+    background-color: var(--colorLight);
+    margin-right: 1rem;
+}
+
+.slots li {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem 0;
+    align-items: center;
+}
+
+@media (min-width: 667px) {
+    .grid {
+        display: flex;
+    
+    }
+    .gridNumbers {
+    margin:0 0 0 2rem;
+    }
+    .gridNumbers li  {
+padding: 1rem;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .slots, .gridNumbers li {
+      font-size: 1.3rem;
+    }
+  }

@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import PropTypes from 'prop-types';
 
-export default function GetNumberImage({ numb }) {
+export default function GetNumberImage({ numb, size = 2 }) {
   let url;
   switch (numb) {
     case 0:
@@ -88,12 +88,13 @@ export default function GetNumberImage({ numb }) {
       url = 'zero_iepyh1';
       break;
   }
+
   return (
     <Image
       priority
       src={`/caracol/${url}.svg`}
-      height={122 / 2}
-      width={254 / 2}
+      height={122 / size}
+      width={254 / size}
       alt={`${numb} hierogplyph`}
     />
   );
@@ -101,4 +102,5 @@ export default function GetNumberImage({ numb }) {
 
 GetNumberImage.propTypes = {
   numb: PropTypes.number,
+  size: PropTypes.number,
 };

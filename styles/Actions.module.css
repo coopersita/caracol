@@ -15,7 +15,7 @@
     border-radius: 0.2em 0.2em 0 0;
     overflow: visible;
     font-family: inherit;
-    font-size: 1.3rem;
+    font-size: 1rem;
     background-color: var(--color);
     color: var(--accent)
   }
@@ -100,3 +100,10 @@
   .tabs  [role="tabpanel"] * + p {
     margin-top: 1em;
   }
+
+  @media (min-width: 767px) {
+    .tabs  [role="tab"] {
+      font-size: 1.3rem;
+    }
+  }
+  

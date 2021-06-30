@@ -1,10 +1,18 @@
-import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import dynamic from 'next/dynamic'; // disable ssr
+import { Tab, TabList, TabPanel } from 'react-tabs';
+
 import Link from 'next/link';
 import ConvertNumber from '../components/ConvertNumber.js';
+import CreateNumber from '../components/CreateNumber.js';
 import styles from '../styles/Actions.module.css';
 import stylesIntro from '../styles/Intro.module.css';
 
 import 'react-tabs/style/react-tabs.css';
+
+const Tabs = dynamic(
+  import('react-tabs').then((mod) => mod.Tabs),
+  { ssr: false }
+);
 
 export default function Actions() {
   return (
@@ -19,13 +27,7 @@ export default function Actions() {
             <ConvertNumber />
           </TabPanel>
           <TabPanel>
-            <p>
-              Agnes Caroline Thaarup Obel is a Danish singer/songwriter. Her
-              first album, Philharmonics, was released by PIAS Recordings on 4
-              October 2010 in Europe. Philharmonics was certified gold in June
-              2011 by the Belgian Entertainment Association (BEA) for sales of
-              10,000 Copies.
-            </p>
+            <CreateNumber />
           </TabPanel>
         </Tabs>
       </div>

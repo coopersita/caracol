@@ -4,6 +4,7 @@
   --color : #52280a;
   --accent: #FB7F11;
   --accentLight : rgb(251, 127, 17, 0.5);
+  --colorLight : rgba(82, 40, 10, 0.5);
   --light: #ffff99;
 }
 html,
@@ -83,7 +84,7 @@ color: var(--accent);
   padding: 0.5rem 1rem;
   position: fixed;
   width: 100%;
-  z-index : 3
+  z-index : 5;
 }
 
 .code {
