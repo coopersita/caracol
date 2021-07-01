@@ -30,6 +30,9 @@
     height: 41px;
     background-color: var(--colorLight);
     margin-right: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .slots li {
@@ -48,7 +51,7 @@
     margin:0 0 0 2rem;
     }
     .gridNumbers li  {
-padding: 1rem;
+        padding: 1rem;
     }
 
 }
