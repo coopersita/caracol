@@ -27,8 +27,8 @@ export default function CreateNumber() {
 
   function handleDragStart(e) {
     e.dataTransfer.setData('text/plain', e.target.id);
-    e.target.classList.add(styles.isDragging);
     console.log(e.target);
+    e.target.classList.add(styles.isDragging);
   }
 
   function handleDragEnd(e) {
@@ -38,6 +38,7 @@ export default function CreateNumber() {
   function handleDrop(e) {
     const id = e.dataTransfer.getData('text');
     const draggableElement = document.getElementById(id);
+    draggableElement.classList.remove(styles.isDragging);
     const newNumber = draggableElement.dataset.number;
     const dropzone = e.target;
     const dropZoneIndex = dropzone.dataset.index;
