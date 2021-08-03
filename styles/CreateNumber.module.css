@@ -1,19 +1,28 @@
-
-
 .gridNumbers {
     display: flex;
+    text-align: center;
     flex-wrap: wrap;
-    margin:0 ;
-    padding:0;
-    list-style-type: none;
-    flex: 2;
+    flex-basis: 66%;
     justify-content: center;
 }
 
 .gridNumbers li {
+    position: relative;
+    margin-top: 35px;
     padding: 0.5rem;
     text-align: center;
     font-size: 1.3rem;
+}
+
+.draggable {
+  position: absolute;
+  z-index: 1;
+}
+.isDragging {
+  background-color: var(--color);
+  padding: 10px;
+  border-radius: 5px;
+  opacity: 0.5;
 }
 
 .slots {
@@ -22,7 +31,11 @@
     list-style-type: none;
     flex: 1;
     font-size: 0.8rem;
+min-width: 200px;
+}
 
+.numbers {
+  font-size: 0.9rem;
 }
 
 .slot {
@@ -37,14 +50,32 @@
 
 .slots li {
     display: flex;
-    flex-wrap: wrap;
     margin: 1rem 0;
     align-items: center;
+}
+.reset {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.reset button {
+  font-size: 1.5rem;
+  border: 0;
+  background-color: var(--color);
+  color: var(--accent);
+  padding: 0.8rem 2rem;
+  border-radius: 10px;
+  transition: 0.8s;
+}
+
+.reset button:hover {
+  color: var(--light);
 }
 
 @media (min-width: 667px) {
     .grid {
         display: flex;
+        justify-content: space-between;
     
     }
     .gridNumbers {

@@ -1,8 +1,9 @@
+import PropTypes from 'prop-types';
+
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Head from 'next/head';
 import '../styles/globals.css';
-import styles from '../styles/Home.module.css';
 import stylesBg from '../styles/background.module.css';
 
 function MyApp({ Component, pageProps, router }) {
@@ -46,6 +47,7 @@ function MyApp({ Component, pageProps, router }) {
           className="content"
         >
           <main className="main">
+            {/* eslint-disable-next-line react/jsx-props-no-spreading */}
             <Component {...pageProps} />
           </main>
         </motion.div>
@@ -68,5 +70,11 @@ function MyApp({ Component, pageProps, router }) {
     </>
   );
 }
+
+MyApp.propTypes = {
+  Component: PropTypes.any,
+  pageProps: PropTypes.any,
+  router: PropTypes.any,
+};
 
 export default MyApp;

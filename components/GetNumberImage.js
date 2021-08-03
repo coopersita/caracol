@@ -1,7 +1,13 @@
 import Image from 'next/image';
 import PropTypes from 'prop-types';
 
-export default function GetNumberImage({ numb, size = 2 }) {
+export default function GetNumberImage({
+  numb,
+  size = 2,
+  draggable = false,
+  dragStartFunction = undefined,
+  index = undefined,
+}) {
   let url;
   switch (numb) {
     case 0:
@@ -85,7 +91,7 @@ export default function GetNumberImage({ numb, size = 2 }) {
       break;
 
     default:
-      url = 'zero_iepyh1';
+      url = 'blank_tmkvns';
       break;
   }
 
@@ -96,6 +102,11 @@ export default function GetNumberImage({ numb, size = 2 }) {
       height={122 / size}
       width={254 / size}
       alt={`${numb} hierogplyph`}
+      data-number={numb}
+      id={`number${Math.floor(Math.random() * 10000)}`}
+      draggable={draggable}
+      onDragStart={dragStartFunction}
+      data-index={index}
     />
   );
 }
@@ -103,4 +114,7 @@ export default function GetNumberImage({ numb, size = 2 }) {
 GetNumberImage.propTypes = {
   numb: PropTypes.number,
   size: PropTypes.number,
+  draggable: PropTypes.bool,
+  dragStartFunction: PropTypes.func,
+  index: PropTypes.number,
 };

@@ -28,8 +28,8 @@ export default function Math() {
                     <Image
                       priority
                       src="/caracol/ten_zo9epe.svg"
-                      height={122 / 2}
-                      width={254 / 2}
+                      height={122 / 3}
+                      width={254 / 3}
                       alt="Ten hierogplyph: two horizontal lines"
                     />
                   </div>
@@ -57,8 +57,8 @@ export default function Math() {
                     <Image
                       priority
                       src="/caracol/nineteen_vgtpmh.svg"
-                      height={122 / 2}
-                      width={254 / 2}
+                      height={122 / 3}
+                      width={254 / 3}
                       alt="Nineteen hierogplyph: 4 dots and three bars"
                     />
                   </div>
@@ -75,8 +75,8 @@ export default function Math() {
                     <Image
                       priority
                       src="/caracol/zero_iepyh1.svg"
-                      height={122 / 2}
-                      width={254 / 2}
+                      height={122 / 3}
+                      width={254 / 3}
                       alt="Zero hierogplyph: an oval resempling a sea shell"
                     />
                   </div>
@@ -96,8 +96,8 @@ export default function Math() {
                     <Image
                       priority
                       src="/caracol/one_rk0wex.svg"
-                      height={122 / 2}
-                      width={254 / 2}
+                      height={122 / 3}
+                      width={254 / 3}
                       alt="One hierogplyph: a dot"
                     />
                   </div>
@@ -115,8 +115,8 @@ export default function Math() {
                     <Image
                       priority
                       src="/caracol/two_jbna4l.svg"
-                      height={122 / 2}
-                      width={254 / 2}
+                      height={122 / 3}
+                      width={254 / 3}
                       alt="Two hierogplyph: two dots"
                     />
                   </div>
@@ -134,8 +134,8 @@ export default function Math() {
                     <Image
                       priority
                       src="/caracol/eleven_z1cao3.svg"
-                      height={122 / 2}
-                      width={254 / 2}
+                      height={122 / 3}
+                      width={254 / 3}
                       alt="eleven hierogplyph: a dot and two bars"
                     />
                   </div>
@@ -160,8 +160,8 @@ export default function Math() {
                     <Image
                       priority
                       src="/caracol/six_dpwjqp.svg"
-                      height={122 / 2}
-                      width={254 / 2}
+                      height={122 / 3}
+                      width={254 / 3}
                       alt="Six hierogplyph: a dot and a bar"
                     />
                   </div>
@@ -178,8 +178,8 @@ export default function Math() {
                     <Image
                       priority
                       src="/caracol/five_tyagxv.svg"
-                      height={122 / 2}
-                      width={254 / 2}
+                      height={122 / 3}
+                      width={254 / 3}
                       alt="Five hierogplyph: an horizontal line"
                     />
                   </div>
@@ -197,7 +197,7 @@ export default function Math() {
                       priority
                       src="/caracol/zero_iepyh1.svg"
                       height={107 / 2}
-                      width={254 / 2}
+                      width={254 / 3}
                       alt="Zero hierogplyph: an oval resempling a sea shell"
                     />
                   </div>

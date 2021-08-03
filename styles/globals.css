@@ -23,6 +23,11 @@ a {
 * {
   box-sizing: border-box;
 }
+ ul, li {
+  margin:0 ;
+  padding:0;
+  list-style-type: none;
+ }
 
 .container {
   min-height: 100vh;
@@ -163,6 +168,6 @@ transition: all 1s;
 
 @media (min-width: 1200px) {
   .blurb {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
 }

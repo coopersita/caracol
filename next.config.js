@@ -7,11 +7,10 @@ module.exports = {
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
     path: 'https://res.cloudinary.com/dnliyglel/image/upload/',
   },
-    exportPathMap: async function() {
+  async exportPathMap() {
     const paths = {
       '/': { page: '/' },
-      };
-      return paths; 
-    }
-  };
-  
+    };
+    return paths;
+  },
+};
