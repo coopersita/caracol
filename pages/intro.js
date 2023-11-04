@@ -116,11 +116,11 @@ export default function Home() {
         </div>
       </div>
       <div className="buttons">
-        <Link href="/">
-          <a className="prev">Previous</a>
+        <Link href="/" className="prev">
+          Previous
         </Link>
-        <Link href="/math">
-          <a className="next">Next</a>
+        <Link href="/math" className="next">
+          Next
         </Link>
       </div>
     </>

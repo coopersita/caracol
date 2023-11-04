@@ -216,11 +216,11 @@ export default function Math() {
         </table>
       </div>
       <div className="buttons">
-        <Link href="/intro">
-          <a className="prev">Previous</a>
+        <Link href="/intro" className="prev">
+          Previous
         </Link>
-        <Link href="/actions">
-          <a className="next">Next</a>
+        <Link href="/actions" className="next">
+          Next
         </Link>
       </div>
     </>

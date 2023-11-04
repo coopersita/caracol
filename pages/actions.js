@@ -32,8 +32,8 @@ export default function Actions() {
         </Tabs>
       </div>
       <div className="buttons">
-        <Link href="/math">
-          <a className="prev">Previous</a>
+        <Link href="/math" className="prev">
+          Previous
         </Link>
       </div>
     </>

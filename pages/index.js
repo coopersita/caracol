@@ -26,8 +26,8 @@ export default function Home() {
         </div>
       </div>
       <div className="buttons">
-        <Link href="/intro">
-          <a className="next">Next</a>
+        <Link href="/intro" className="next">
+          Next
         </Link>
       </div>
     </>
