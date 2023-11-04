@@ -21,13 +21,11 @@ export default function CreateNumber() {
   const formatter = new Intl.NumberFormat('en-CA');
 
   useEffect(() => {
-    console.log(`effect: ${mayanNumberStack}`);
     setMayanNumber(mayanNumberFactors.reduce((a, b) => a + b, 0));
   }, [mayanNumberStack, mayanNumber, mayanNumberFactors]);
 
   function handleDragStart(e) {
     e.dataTransfer.setData('text/plain', e.target.id);
-    console.log(e.target);
     e.target.classList.add(styles.isDragging);
   }
 
@@ -68,7 +66,6 @@ export default function CreateNumber() {
   }
 
   function reset() {
-    console.log('here');
     setMayanStack(initialMayanStack);
     setMayanFactors(initialFactors);
   }
