@@ -1,6 +1,6 @@
 module.exports = {
   reactStrictMode: true,
-  // basePath: '/caracol',
+  basePath: '/caracol',
   // assetPrefix: '/caracol',
   images: {
     loader: 'cloudinary',

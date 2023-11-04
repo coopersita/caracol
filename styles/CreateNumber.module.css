@@ -19,10 +19,8 @@
   z-index: 1;
 }
 .isDragging {
-  background-color: var(--color);
-  padding: 10px;
+  background-color: var(--colorLight);
   border-radius: 5px;
-  opacity: 0.5;
 }
 
 .slots {
